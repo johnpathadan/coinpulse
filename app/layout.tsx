@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "CoinPulse",
   description:
-    "Cryto screener app with a built in high frequency terminal and dashboard",
+    "Crypto screener app with a built in high frequency terminal and dashboard",
 };
 
 export default function RootLayout({

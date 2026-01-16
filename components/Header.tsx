@@ -12,7 +12,7 @@ const Header = () => {
     <header>
       <div className="main-container inner">
         <Link href="/">
-          <Image src="logo.svg" alt="Coinpulse Logo" width={132} height={40} />
+          <Image src="/logo.svg" alt="Coinpulse Logo" width={132} height={40} />
         </Link>
         <nav>
           <Link
@@ -28,7 +28,7 @@ const Header = () => {
           <Link
             href="/coins"
             className={cn("nav-link", {
-              "is-active": pathname === "/",
+              "is-active": pathname === "/coins",
               "is-home": true,
             })}
           >
